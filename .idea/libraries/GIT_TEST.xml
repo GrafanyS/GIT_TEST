@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="GIT_TEST">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/unit-tests-2 (Код семинара).zip!/" />
+      <root url="jar://$PROJECT_DIR$/unit-tests-1 (Условие ДЗ).zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
