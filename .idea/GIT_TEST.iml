@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/unit-tests-2(Код семинара)/unit-tests-2 (Код семинара)/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/unit-tests-2-Код семинара/unit-tests-2 (Код семинара)/Test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/unit-tests-2-Код семинара/unit-tests-2 (Код семинара)/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/readme" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
