@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/GIT_TEST.iml" filepath="$PROJECT_DIR$/.idea/GIT_TEST.iml" />
-      <module fileurl="file://$PROJECT_DIR$/unit-tests-1(Условие ДЗ)/unit-tests-1 (Условие ДЗ).iml" filepath="$PROJECT_DIR$/unit-tests-1(Условие ДЗ)/unit-tests-1 (Условие ДЗ).iml" />
-      <module fileurl="file://$PROJECT_DIR$/unit-tests-1(Код семинара)/unit-tests-1(Код семинара).iml" filepath="$PROJECT_DIR$/unit-tests-1(Код семинара)/unit-tests-1(Код семинара).iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit-tests-1-Код семинара/unit-tests-1-Код семинара.iml" filepath="$PROJECT_DIR$/unit-tests-1-Код семинара/unit-tests-1-Код семинара.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit-tests-1-Условие ДЗ/unit-tests-1-Условие ДЗ.iml" filepath="$PROJECT_DIR$/unit-tests-1-Условие ДЗ/unit-tests-1-Условие ДЗ.iml" />
       <module fileurl="file://$PROJECT_DIR$/unit-tests-2(Код семинара)/unit-tests-2-HW.iml" filepath="$PROJECT_DIR$/unit-tests-2(Код семинара)/unit-tests-2-HW.iml" />
     </modules>
   </component>
