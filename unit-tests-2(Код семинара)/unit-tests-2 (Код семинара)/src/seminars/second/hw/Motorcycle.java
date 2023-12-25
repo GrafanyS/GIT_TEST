@@ -1,10 +1,10 @@
 package seminars.second.hw;
 
 public class Motorcycle extends Vehicle {
-    private String company;
-    private String model;
-    private int yearRelease;
-    private int numWheels;
+    private final String company;
+    private final String model;
+    private final int yearRelease;
+    private final int numWheels;
     private int speed;
 
     public Motorcycle (String company, String model, int year) {
