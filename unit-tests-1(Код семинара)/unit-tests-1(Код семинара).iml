@@ -8,7 +8,5 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="assertj-core-3.24.2" level="project" />
-    <orderEntry type="library" name="assertj-core-3.24.21" level="project" />
-    <orderEntry type="library" name="libs" level="project" />
   </component>
 </module>
