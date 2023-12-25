@@ -22,7 +22,9 @@ public class Main {
             products.add(new Product(i + 1, productNames[i], productPrice[i], stock[i]));
         }
 
-
+        // тоже самое
+        // Product product = new Product(1,"bacon", 170.00d, 10);
+        // products.add(product);
         return products;
     }
 }

@@ -12,6 +12,8 @@ import static org.assertj.core.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 public class CalculatorTest {
 
 //    public static void main(String[] args) {
@@ -156,7 +158,7 @@ public class CalculatorTest {
         InputStream inputStream = System.in;
         System.setIn(in);
         System.setOut(new PrintStream(out));
-        assertThatThrownBy(Calculator::getOperand)
+        assertThatThrownBy(() -> Calculator.getOperand())
                 .isInstanceOf(IllegalStateException.class)
                 .describedAs("Input error");
         System.setIn(inputStream);

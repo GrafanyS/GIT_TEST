@@ -77,7 +77,7 @@ public class TextUserInterface {
     }
 
     private void displayStoreProducts() {
-        List<Product> products = shop.productsShop();
+        List<Product> products = shop.getProductsShop();
         String format = "%1$-3s| %2$-20s| %3$-9s| %4$-3s\n"; // Ширина строк
         System.out.format(format, "ID", "Название", "Цена, р.", "Кол-во в магазине, шт.");
         for (Product prod : products) {

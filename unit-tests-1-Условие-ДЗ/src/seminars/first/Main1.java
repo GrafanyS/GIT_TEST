@@ -132,7 +132,7 @@ public class Main1 {
     public static void checkingHero() {
 
         List<String> heroBag = Arrays.asList("Bow", "Axe", "Gold");
-        Hero emmett = new Hero("Emmett", 50, "sword", heroBag, true);
+        Main1.Hero emmett = new Main1.Hero("Emmett", 50, "sword", heroBag, true);
         assertThat(emmett.getName()).isEqualTo("Emmett");
         assertThat(emmett.getArmorStrength()).isEqualTo(50);
         assertThat(emmett.getWeapon()).isEqualTo("sword");

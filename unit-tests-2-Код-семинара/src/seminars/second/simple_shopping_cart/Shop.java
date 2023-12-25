@@ -2,9 +2,17 @@ package seminars.second.simple_shopping_cart;
 
 import java.util.List;
 
-/**
- * @param productsShop Список продуктов в магазине
- */
-public record Shop(List<Product> productsShop) {
+public class Shop {
+    // Список продуктов в магазине
+    private final List<Product> productsShop;
+
     // При создании магазина нужно передать ему список продуктов
+    public Shop(List<Product> productsShop) {
+        this.productsShop = productsShop;
+    }
+
+    // Метод для получения текущего списка продуктов
+    public List<Product> getProductsShop() {
+        return productsShop;
+    }
 }
