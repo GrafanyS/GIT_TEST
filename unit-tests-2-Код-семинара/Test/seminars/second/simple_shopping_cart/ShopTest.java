@@ -10,7 +10,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -30,21 +29,22 @@ class ShopTest {
             products.add(new Product(i + 1, productNames[i], productPrice[i], stock[i]));
         }
 
-        // тоже самое
-        // Product product = new Product(1,"bacon", 170.00d, 10);
-        // products.add(product);
+//  то же самое
+//        product = new Product(1, "bacon", 170.00d, 10);
+//        products.add(product);
         return products;
     }
 
     private final ByteArrayOutputStream output = new ByteArrayOutputStream();
 
-     private Shop shop;
-     private Cart cart;
-      @BeforeEach
-      void setup() {
-          shop = new Shop(getStoreItems());
-          cart = new Cart(shop);
-      }
+    private Shop shop;
+    private Cart cart;
+
+    @BeforeEach
+    void setup() {
+        shop = new Shop(getStoreItems());
+        cart = new Cart(shop);
+    }
 
 
 /*
@@ -79,7 +79,7 @@ class ShopTest {
         cart.addProductToCartByID(2);
         cart.addProductToCartByID(3);
         // Assert (Проверка утверждения)
-        assertThat(cart.getTotalPrice()).isEqualTo(250+200);
+        assertThat(cart.getTotalPrice()).isEqualTo(250 + 200);
 
     }
 
@@ -101,7 +101,7 @@ class ShopTest {
         cart.addProductToCartByID(3); // 170 +
         cart.addProductToCartByID(3); // 170 +
         // Assert
-        assertEquals(250*3 + 200*3, cart.getTotalPrice(), 0.00001);
+        assertEquals(250 * 3 + 200 * 3, cart.getTotalPrice(), 0.00001);
     }
 
     /**
@@ -131,11 +131,11 @@ class ShopTest {
 
     @Test
     void quantityProductsStoreChanging() {
-        int quantityBefore = shop.getProductsShop().get(0).getQuantity();
+        int quantityBefore = shop.productsShop().get(0).getQuantity();
         for (int i = 0; i < 4; i++) {
             cart.addProductToCartByID(1);
         }
-        int quantityAfter = shop.getProductsShop().get(0).getQuantity();
+        int quantityAfter = shop.productsShop().get(0).getQuantity();
 
         assertThat(quantityBefore - quantityAfter).isEqualTo(4);
     }
@@ -166,15 +166,15 @@ class ShopTest {
      */
     @Test
     void deletedProductIsReturnedToShop() {
-        int before = shop.getProductsShop().get(2).getQuantity();
+        int before = shop.productsShop().get(2).getQuantity();
         for (int i = 0; i < 5; i++) {
             cart.addProductToCartByID(3);
         }
         for (int i = 0; i < 3; i++) {
             cart.removeProductByID(3);
         }
-        int after = shop.getProductsShop().get(2).getQuantity();
-        assertThat(before-after).isEqualTo(2);
+        int after = shop.productsShop().get(2).getQuantity();
+        assertThat(before - after).isEqualTo(2);
     }
 
     /**
@@ -222,20 +222,18 @@ class ShopTest {
     //          Shop shop = new Shop(getStoreItems());
     //          Cart cart = new Cart(shop);
     //      }
-
-
     @Test
     public void testException() {
         boolean exception1Thrown = true;
-         //Assert (Проверка утверждения)
-          assertThat(cart.getTotalPrice()).isEqualTo(cart.getTotalPrice());
-          // Act (Выполнение)
-          cart.addProductToCartByID(2); // 250
-          cart.addProductToCartByID(2); // 250
-          // Arrange (Подготовка)
+        //Assert (Проверка утверждения)
+        assertThat(cart.getTotalPrice()).isEqualTo(cart.getTotalPrice());
+        // Act (Выполнение)
+        cart.addProductToCartByID(2); // 250
+        cart.addProductToCartByID(2); // 250
+        // Arrange (Подготовка)
         try {
             setup();
-        }catch(Exception e){
+        } catch (Exception e) {
             exception1Thrown = false;
         }
         assertTrue(exception1Thrown);
@@ -256,6 +254,6 @@ class ShopTest {
      * <br> 4. После проверки работоспособности теста, его нужно выключить
      */
 
-   // ...
+    // ...
 
 }

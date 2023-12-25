@@ -3,13 +3,12 @@ package seminars.first;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.*; // Импортируем классы библиотеки assertJ
 
-public class Main {
+public class Main2 {
 
     // Типы ошибок. Синтаксические
 //    public static void main(String[] args) {
@@ -61,7 +60,7 @@ public class Main {
     // 1.1
     public static void assertConditionA() {
         String[] weekends = {"Суббота", "Воскресенье"};
-        assert weekends.length == 3;
+        assert weekends.length == 2;
         System.out.println("В неделе " + weekends.length + " дня выходных");
     }
 

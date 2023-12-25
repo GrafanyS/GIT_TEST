@@ -156,7 +156,7 @@ public class CalculatorTest {
         InputStream inputStream = System.in;
         System.setIn(in);
         System.setOut(new PrintStream(out));
-        assertThatThrownBy(() -> Calculator.getOperand())
+        assertThatThrownBy(Calculator::getOperand)
                 .isInstanceOf(IllegalStateException.class)
                 .describedAs("Input error");
         System.setIn(inputStream);

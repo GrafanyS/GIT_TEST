@@ -16,8 +16,7 @@ public class Calculator {
 
     public static char getOperator() {
         System.out.println("Enter operation: ");
-        char operation = scanner.next().charAt(0);
-        return operation;
+        return scanner.next().charAt(0);
     }
 
     public static int getOperand() {

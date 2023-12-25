@@ -1,6 +1,5 @@
 package seminars.second.simple_shopping_cart;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -37,14 +36,14 @@ public class Cart {
     private Product getProductByProductID(int id) {
         Product product = new Product();
 
-        List<Product> products = shop.getProductsShop();
+        List<Product> products = shop.productsShop();
         for (Product prod : products) {
             if (prod.getId() == id) {
                 product = prod;
                 break;
             }
         }
-        if (id > shop.getProductsShop().size() || id < 0) {
+        if (id > shop.productsShop().size() || id < 0) {
             try {
                 throw new NoSuchFieldException("Не найден продукт с id: " + id);
             } catch (NoSuchFieldException e) {
@@ -56,7 +55,7 @@ public class Cart {
 
     private void addToCart(Product product) {
         Product productInCart = new Product(product.getId(), product.getName(), product.getPrice(), 0);
-        Product productInShop = shop.getProductsShop().get(product.getId() - 1);
+        Product productInShop = shop.productsShop().get(product.getId() - 1);
 
         if (productInShop.getQuantity() == 0) {
             System.out.println("Этого товара нет в наличии");
@@ -72,7 +71,7 @@ public class Cart {
         }
         recalculate();
         // Изменяем кол-во в магазине -1
-        shop.getProductsShop().get(product.getId() - 1).setQuantity(productInShop.getQuantity() - 1);
+        shop.productsShop().get(product.getId() - 1).setQuantity(productInShop.getQuantity() - 1);
     }
 
 
@@ -129,8 +128,8 @@ public class Cart {
         recalculate();
 
         // Изменяем кол-во в магазине +1
-        Product productInShop = shop.getProductsShop().get(id - 1);
-        shop.getProductsShop().get(id - 1).setQuantity(productInShop.getQuantity() + 1);
+        Product productInShop = shop.productsShop().get(id - 1);
+        shop.productsShop().get(id - 1).setQuantity(productInShop.getQuantity() + 1);
 
         //  if (productInShop.getQuantity() == 0) {
         //      shop.getProductsShop().remove(productInShop);

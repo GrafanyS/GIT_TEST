@@ -9,7 +9,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.*; // Импортируем классы библиотеки assertJ
 
-public class Main {
+public class Main1 {
     public static void main(String[] args) {
         // Проверьте, как работают методы:
 
