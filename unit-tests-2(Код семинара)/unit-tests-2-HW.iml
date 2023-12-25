@@ -11,6 +11,7 @@
     <orderEntry type="library" name="assertj-core-3.24.2" level="project" />
     <orderEntry type="library" name="assertj-core-3.24.21" level="project" />
     <orderEntry type="library" name="libs" level="project" />
+<<<<<<< HEAD
     <orderEntry type="module-library" scope="TEST">
       <library name="JUnit4">
         <CLASSES>
@@ -38,5 +39,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="assertj-core-3.23.1" level="project" />
+=======
+>>>>>>> b321856f7292b4b80752442c60bee794d9718c2f
   </component>
 </module>

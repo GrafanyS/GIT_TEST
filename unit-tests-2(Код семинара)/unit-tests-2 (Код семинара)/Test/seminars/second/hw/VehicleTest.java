@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class VehicleTest {
+
     @Test
     public void testCarInstanceVehicle() {
         Car car = new Car("BMW", "M5", 2020);
