@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967f64bc-02de-483b-8450-cd461163e67a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/assertj_core_3_23_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/assertj_core_3_24_2__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unit-tests-1(Условие ДЗ)/unit-tests-1 (Условие ДЗ).iml" beforeDir="false" afterPath="$PROJECT_DIR$/../unit-tests-1(Условие ДЗ)/unit-tests-1 (Условие ДЗ).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unit-tests-2(Код семинара)/unit-tests-2 (Код семинара)/Test/seminars/second/hw/VehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../unit-tests-2(Код семинара)/unit-tests-2 (Код семинара)/Test/seminars/second/hw/VehicleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unit-tests-2(Код семинара)/unit-tests-2 (Код семинара)/Test/seminars/second/simple_shopping_cart/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../unit-tests-2(Код семинара)/unit-tests-2 (Код семинара)/Test/seminars/second/simple_shopping_cart/ShopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unit-tests-2(Код семинара)/unit-tests-2 (Код семинара)/src/seminars/first/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../unit-tests-2(Код семинара)/unit-tests-2 (Код семинара)/src/seminars/first/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unit-tests-2(Код семинара)/unit-tests-2 (Код семинара)/src/seminars/second/hw/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../unit-tests-2(Код семинара)/unit-tests-2 (Код семинара)/src/seminars/second/hw/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unit-tests-2(Код семинара)/unit-tests-2 (Код семинара)/src/seminars/second/hw/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../unit-tests-2(Код семинара)/unit-tests-2 (Код семинара)/src/seminars/second/hw/Motorcycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unit-tests-2(Код семинара)/unit-tests-2-HW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../unit-tests-2(Код семинара)/unit-tests-2-HW.iml" afterDir="false" />
-    </list>
+    <list default="true" id="967f64bc-02de-483b-8450-cd461163e67a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
