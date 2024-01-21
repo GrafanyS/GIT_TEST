@@ -27,3 +27,5 @@ L
 list_averager/ListAverage.py,5\5\556f943481b1c5bb4df4045cf0ba45812577eab0
 W
 'list_average/Test/test_list_averager.py,d\1\d103831598dd52a22d0b5454f4117de23fe1140e
+@
+requirements.txt,1\9\19359a61ae2446b51b549167b014da2fcf265768
